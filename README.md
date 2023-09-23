@@ -1,4 +1,28 @@
-Портфолио тестировщика
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Списки в HTML5</title>
+</head>
+<body>
+<h2>Нумерованный список</h2>
+<ol>
+<li>iPhone 6S</li>
+<li>Galaxy S7</li>
+<li>Nexus 5X</li>
+<li>Lumia 950</li>
+</ol>
+
+<h2> Ненумерованный список</h2>
+<ul>
+<li>iPhone 6S</li>
+<li>Galaxy S7</li>
+<li>Nexus 5X</li>
+<li>Lumia 950</li>
+</ul>
+</body>
+</html>Портфолио тестировщика
 В портфолио собраны проекты, выполненные во время обучения по специальности Инженер по тестированию.
 
 Проектирование тестов
