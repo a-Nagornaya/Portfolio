@@ -54,7 +54,7 @@
 </details>
 
 <br>Ассоциативная карта
-<img src="C:/Users/huawei/Downloads/my mind.pdf" alt="Ассоциативная карта">
+<img src="C:/Users/huawei/Downloads/drawing.svg" alt="Ассоциативная карта">
 
 2. Классы эквивалентности и граничные значения
 Поля ввода адреса (Откуда, Куда)
