@@ -18,8 +18,6 @@
 <p>  REST API | Postman</p>
 <a href="#avto-test"> <h2 >Основы автоматизации тестирования</h2></a>
 <p>JavaScript |</p>
-</body>
-</html>
 
 
 
@@ -177,3 +175,8 @@
 			</table>
 
 <section><h3 id="avto-test">Основы автоматизации тестирования</h3></section>
+
+
+</body>
+</html>
+
