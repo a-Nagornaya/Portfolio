@@ -175,8 +175,48 @@
 			</table>
 
 <section><h3 id="avto-test">Основы автоматизации тестирования</h3></section>
-
-
+<strong>Автоматизируй тест-кейс для Яндекс.Маршрутов.</strong>
+<p>Найди нужные селекторы на стенде: https://qa-routes.praktikum-services.ru/
+<br>
+Шаги:<br>
+<ol>
+<li> Ввести «Время начала поездки» — 16:10.</li>
+<li>В поле «Откуда»: Усачева, 3.</li>
+<li>В поле «Куда»: Комсомольский проспект, 18.</li>
+<li>Выбрать режим «Свой».</li>
+<li>Выбрать вид транспорта: самокат.</li>
+</ol>
+ОР: Текст появившегося результата начинается со слова «Самокат».
+</p>
+<br>
+Решение:<br>
+Селекторы:
+<table>
+	<tr>
+		<th>Элемент</th> <th>Селектор</th>
+	</tr>
+	<tr>
+		<th>Поле «Часы»</th> <th>#form-input-hour</th>
+	</tr>
+	<tr>
+		<th>Поле «Минуты»</th> <th>#form-input-minute</th>
+	</tr>
+	<tr>
+		<th>Поле «Откуда»</th> <th>#form-input-from</th>
+	</tr>
+	<tr>
+		<th>Поле «Куда»</th> <th>#form-input-to</th>
+	</tr>
+	<tr>
+		<th>Режим «Свой»</th> <th>#form-mode-custom</th>
+	</tr>
+	<tr>
+		<th>Транспорт «Самокат»</th> <th>#form-type- scooter</th>
+	</tr>
+	<tr>
+		<th>Строка результата</th> <th>#result-time-price</th>
+	</tr>
+</table>
 </body>
 </html>
 
