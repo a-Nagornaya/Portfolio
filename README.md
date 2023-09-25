@@ -24,7 +24,7 @@
 
 
         
-<h3 name="designing-test">Проектирование тестов</h3>
+<section>Секция 1</section><h3 id="designing-test">Проектирование тестов</h3></section>
 <p>
 <strong>1. Визуализируй требования</strong>
 <br>Проанализируй требования к сервису Яндекс.Метро и нарисуй mindmap.<br>
@@ -176,4 +176,4 @@
 </tr>				
 			</table>
 
-<h3 name="avto-test">Основы автоматизации тестирования</h3>
+<section><h3 id="avto-test">Основы автоматизации тестирования</h3></section>
