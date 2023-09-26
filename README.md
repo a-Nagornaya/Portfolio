@@ -316,7 +316,7 @@
 	<tr> <th>30</th> <th>Ввести эмодзи.</th> <th>PASSED</th><th></th>
 	</tr>
 	<tr>
-		<tr>31</tr> <th>Ввести двоичное число.</th> <th>PASSED</th><th></th>
+		<th>31</th> <th>Ввести двоичное число.</th> <th>PASSED</th><th></th>
 	</tr>
 	<tr>
 		<th>32</th> <th>Ввести пробел.</th> <th>PASSED</th><th></th>
@@ -355,7 +355,7 @@
 		<th>42</th> <th>Ввести эмодзи.</th> <th>PASSED</th><th></th>
 	</tr>
 	<tr>
-		<tr>43/tr> <th>Ввести двоичное число.</th> <th>PASSED</th><th></th>
+		<th>43</th> <th>Ввести двоичное число.</th> <th>PASSED</th><th></th>
 	</tr>
 	<tr>
 		<th>44</th> <th>Ввести 9998</th> <th>PASSED</th><th></th>
