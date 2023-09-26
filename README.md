@@ -17,7 +17,7 @@
 <h2>Тестирование API</h2>
 <p>  REST API | Postman</p>
 <a href="#avto-test"> Основы автоматизации тестирования</a>
-<p>JavaScript |</p>
+<p>JavaScript | DevTools</p>
 
 
 
@@ -271,6 +271,76 @@ async function testScooterResult() {
     console.log('Закрытие браузера');
     await browser.close();
 }
+</code></pre>
+<strong>Автоматизируй тест-кейс для Demo Web Shop (tricentis.com), применив нужные селекторы.</strong>
+<p>Найди нужные селекторы на сайте: [https://qa-routes.praktikum-services.ru/](https://demowebshop.tricentis.com/), просмотреть можно с помошью DevTools
+<br>
+	Предусловие:<br>
+Перейти на страницу DemoWebShop.<br>
+
+Шаги:<br>
+<ol>
+<li> Ввести «Computer» в поисковую строку.</li>
+<li>Нажать кнопку «Найти».</li>
+</ol> <p>ОР: Выполнен переход на страницу выдачи поиска и результат поиска непустой.
+</p>
+<br>
+Решение:<br>
+Селекторы:
+<table>
+	<tr>
+		<th>Элемент</th> <th>Селектор</th>
+	</tr>
+	<tr>
+		<th>Поисковая строка</th> <th>#small-searchterms</th>
+	</tr>
+	<tr>
+		<th>Кнопка «Search»</th> <th>.button[type=submit]</th>
+	</tr>
+	<tr>
+		<th>Результат поиска</th> <th>.search-results</th>
+	</tr>
+	
+</table>
+<br> Автотест:<br>
+<pre><code>
+	const puppeteer = require('puppeteer');
+
+async function testDemoShop () {
+    console.log('Запуск браузера');
+    const browser = await puppeteer.launch();
+
+    console.log('Создание новой вкладки в браузере');
+    const page = await browser.newPage();
+
+    console.log('Переход на страницу tricentis.com');
+    await page.goto('tricentis.com');
+
+    console.log('Ввод текста "Computer" в поисковую строку');
+    const searchField = await page.$('#small-searchterms ');
+    await searchField.type('Computer');
+
+    console.log('Клик в кнопку "Найти"');
+    const searchButton = await page.$('.button[type=submit]');
+    await searchButton.click();
+    
+    console.log('Ожидание перехода в страницу поисковых результатов');
+    await page.waitForNavigation();
+    
+    console.log('Получение элементов результата поиска');
+    const result = await page.$('.search-results');
+    
+    console.log('Сравнение');
+    if (result == null) {
+        console.log('Результаты поиска не найдены');
+    } else {
+        console.log('Результаты поиска отобразились');
+    }
+    
+    console.log('Закрытие браузера');
+    await browser.close();
+};
+
 </code></pre>
 </body>
 </html>
