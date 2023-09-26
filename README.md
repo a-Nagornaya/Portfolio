@@ -242,7 +242,7 @@
 		<th>Проверить кнопку меню File Save As (Список текстового формата, Пустой список, Большой файл, Список с недопустимыми значения данных)</th><th>PASSED</th><th></th>
 	</tr>
 	<tr>
-		<tr>8</tr> <th>Проверить кнопку меню File Exit (Список текстового формата, Пустой список, Список с недопустимыми значения данных, Список с недопустимыми значения данных)</th><th>PASSED</th><th></th>
+		<th>8</th> <th>Проверить кнопку меню File Exit (Список текстового формата, Пустой список, Список с недопустимыми значения данных, Список с недопустимыми значения данных)</th><th>PASSED</th><th></th>
 	</tr>
 	<tr>
 		<th>9</th> <th>Проверить кнопку меню Edit Undo (Поменять range, Поменять сортировку, Добавить значения, удалить и заменить значения, поменять режим)</th> <th>PASSED</th><th></th>
@@ -274,6 +274,94 @@
 	</tr>
 	<tr>
 		<th>16</th> <th>Ввести буквы латиницей.</th>  <th>PASSED</th><th></th>
+	</tr>
+	<tr>
+		<th>17</th> <th>Ввести буквы кириллицей.</th> <th>PASSED</th><th></th>
+	</tr>
+	<tr>
+		<th>18</th> <th>Ввести буквы латиницей и кириллицей.</th> <th>PASSED</th><th></th>
+	</tr>
+	<tr>
+		<th>19</th> <th>Ввести буквы в разных регистрах.</th><th>PASSED</th><th></th>
+	</tr>
+	<tr>
+		<th>20</th> <th>Ввести цифры.</th> <th>PASSED</th><th></th>
+	</tr>
+	<tr>
+		<th>21</th> <th>Ввести буквы и цифры.</th>  <th>PASSED</th><th></th>
+	</tr>
+	<tr>
+		<th>22</th> <th>Ввести отрицательные числа.</th> <th>PASSED</th><th></th>
+	</tr>
+	<tr> <th>23</th> <th>Ввести буквы от 1 до 8.</th> <th>PASSED</th><th></th>
+	</tr>
+	<tr>
+		<th>24</th> <th>Ввести намного больше 8 букв.</th> <th>PASSED</th><th></th>
+	</tr>
+	<tr>
+		<th>25</th> <th>Пустое поле.</th> <th>FAILED</th> <th>BUG-304</th>
+	</tr>
+	<tr>
+		<th>26</th> <th>Ввести 9 букв.</th> <th>PASSED</th><th></th>
+	</tr>
+	<tr>
+		<th>27</th> <th>Ввести 7 букв.</th> <th>PASSED</th><th></th>
+	</tr>
+	<tr>
+		<th>28</th> <th>Ввести символы.</th> <th>PASSED</th><th></th>
+	</tr>
+	<tr>
+		<th>29</th> <th>Ввести рисунок.</th> <th>PASSED</th><th></th>
+	</tr>
+	<tr> <th>30</th> <th>Ввести эмодзи.</th> <th>PASSED</th><th></th>
+	</tr>
+	<tr>
+		<tr>31</tr> <th>Ввести двоичное число.</th> <th>PASSED</th><th></th>
+	</tr>
+	<tr>
+		<th>32</th> <th>Ввести пробел.</th> <th>PASSED</th><th></th>
+	</tr>
+	<tr>
+		<th colspan="4">Функциональность при числовом режиме</th>
+	</tr>
+	<tr>
+		<th>33</th> <th>Ввести буквы </th> <th>PASSED</th><th></th>
+	</tr>
+	<tr>
+		<th>34</th> <th>Ввести число от 0 до 9999</th>  <th>PASSED</th><th></th>
+	</tr>
+	<tr>
+		<th>35</th> <th>Ввести число намного больше 9999</th> <th>PASSED</th><th></th>
+	</tr>
+	<tr>
+		<th>36</th> <th>Ввести отрицательное число</th><th>PASSED</th><th></th>
+	</tr>
+	<tr>
+		<th>37</th> <th>Ввести буквы и числа</th> <th>PASSED</th><th></th>
+	</tr>
+	<tr>
+		<th>38</th> <th>Пустое поле</th> <th>PASSED</th><th></th>
+	</tr>
+	<tr>
+		<th>39</th> <th>Ввести пробел</th> <th>PASSED</th><th></th>
+	</tr>
+	<tr>
+		<th>40</th> <th>Ввести символы</th> <th>PASSED</th><th></th>
+	</tr>
+	<tr>
+		<th>41</th> <th>Ввести рисунок.</th> <th>PASSED</th><th></th>
+	</tr>
+	<tr>
+		<th>42</th> <th>Ввести эмодзи.</th> <th>PASSED</th><th></th>
+	</tr>
+	<tr>
+		<tr>43/tr> <th>Ввести двоичное число.</th> <th>PASSED</th><th></th>
+	</tr>
+	<tr>
+		<th>44</th> <th>Ввести 9998</th> <th>PASSED</th><th></th>
+	</tr>
+	<tr>
+		<th>45</th> <th>Ввести 10000</th> <th>FAILED</th> <th>BUG-305</th>
 	</tr>
 </table>
 
