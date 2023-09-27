@@ -363,6 +363,69 @@
 	<tr>
 		<th>45</th> <th>Ввести 10000</th> <th>FAILED</th> <th>BUG-305</th>
 	</tr>
+	<tr>
+		<th colspan="4">Функциональность при смешанном режиме</th>
+	</tr>
+	<tr>
+		<th>46</th><th>Ввести числа от 1 до 8</th><th>PASSED</th><th></th>
+	</tr>
+	<tr>
+		<th>47</th> <th>Ввести число от 0 до 9999</th>  <th>PASSED</th><th></th>
+	</tr>
+	<tr>
+		<th>48</th> <th>Ввести число намного больше 9999</th> <th>PASSED</th><th></th>
+	</tr>
+	<tr>
+		<th>49</th> <th>Ввести 10000</th> <th>FAILED</th> <th>BUG-305</th>
+	</tr>
+	<tr>
+		<th>50</th> <th>Ввести 9998</th> <th>PASSED</th><th></th>
+	</tr>
+	<tr>
+ <tr>
+	 <th>51</th> <th>Ввести 7 букв</th><th>PASSED</th><th></th>
+ </tr>
+ <tr>
+	 <th>52</th> <th>Ввести 9 букв</th><th>PASSED</th><th></th>
+ </tr>
+ <tr>
+	 <th>53</th> <th>Ввести намного больше 9 букв.</th><th>PASSED</th><th></th>
+ </tr>
+		<th>54</th> <th>Ввести отрицательное число</th><th>PASSED</th><th></th>
+	</tr>
+ <tr>
+		<th>55</th> <th>Ввести двоичное число.</th> <th>PASSED</th><th></th>
+	</tr>
+ <tr>
+		<th>56</th> <th>Пустое поле</th> <th>PASSED</th><th></th>
+	</tr>
+	<tr>
+		<th>57</th> <th>Ввести пробел</th> <th>PASSED</th><th></th>
+	</tr>
+	<tr>
+		<th>58</th> <th>Ввести буквы и числа</th> <th>PASSED</th><th></th>
+	</tr>
+ <tr>
+	 <th>59</th> <th>Ввести буквы на разных языках</th> <th>PASSED</th><th></th>
+ </tr>
+ <tr>
+	 <th>60</th><th>Ввести буквы в разных регистрах</th><th>PASSED</th><th></th>
+ </tr>
+	<tr>
+		<th>61</th> <th>Ввести символы</th> <th>PASSED</th><th></th>
+	</tr>
+	<tr>
+		<th>62</th> <th>Ввести рисунок.</th> <th>PASSED</th><th></th>
+	</tr>
+	<tr>
+		<th>63</th> <th>Ввести эмодзи.</th> <th>PASSED</th><th></th>
+	</tr>
+ <tr>
+	 <th colspan="4">Проверка фильтров: в алфавитном режиме</th>
+ </tr>
+	
+	
+	
 </table>
 
 
