@@ -699,8 +699,11 @@ Windows 11 22H2
 
 <section><h3 id="SQL-test">Тестирование БД</h3></section>
 <p>
-В ходе обучения я освоила язык SQL, отрабатывала я данный нывык на тренажере hackerrank. В ходе обученя я получила несколько сертификатов: https://www.hackerrank.com/certificates/iframe/3c2cf0ea512b SQL (Basic) Certificate
-
+В ходе обучения я освоила язык SQL, отрабатывала я данный нывык на тренажере hackerrank. В ходе обученя я получила несколько сертификатов: 
+<details>
+<summary>SQL (Basic) Certificate</summary>
+	<img src='https://github.com/a-Nagornaya/Portfolio/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-09-29%20205315.png'>
+</details>
 
 
 
