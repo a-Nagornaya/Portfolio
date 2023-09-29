@@ -704,8 +704,19 @@ Windows 11 22H2
 <summary>SQL (Basic) Certificate</summary>
 	<img src='https://github.com/a-Nagornaya/Portfolio/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-09-29%20205315.png'>
 </details>
-
-
+<p>Вот несколько примеров выполненных задач:</p>
+<p>Задача 1</p>
+<p>Саманта вводила данные в таблицу заработной платы в таблицу EMPLOYEES, но у нее не работла кнопка 0 и она не заметила этого, нужно посчитать разницу между актульной и ошибочной ЗП (SALARY-графа с ЗП). Ниже привожу скрин с выполненной задачей и подробным условием.  </p>
+<p>Решение</p>
+<pre><code>
+	SELECT CEIL(AVG(SALARY)-AVG(REPLACE(SALARY, '0', '')))
+	FROM EMPLOYEES;
+	/* выберает наименьшее целое число (сeil), полученное в результате вычитания из среднего арифметического (avg) фактической ЗП и среднего арифметического введенной ЗП, но где 0 замененн на ' '(replace)*/
+</code></pre>
+<details>
+<summary>Скрин задачи</summary>
+	<img src='https://github.com/a-Nagornaya/Portfolio/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-09-29%20205315.png'>
+</details>
 
 
 
