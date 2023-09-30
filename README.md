@@ -17,7 +17,8 @@
 
 <h2>Тестирование API</h2>
 <p>  REST API | Postman</p>
-<a href="#sql-test"> Тестирование БД</a>
+
+<a href="#SQL-test"> Тестирование БД</a>
 <p>SQL | Базы данных </p>
 
 <a href="#avto-test"> Основы автоматизации тестирования</a>
@@ -720,6 +721,7 @@ Windows 11 22H2
 	<img src='https://github.com/a-Nagornaya/Portfolio/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-09-28%20094013.png'>
 </details>
 <br>
+
 <p>Задача 2</p>
 <p>Напишите запрос, который выводит список имен сотрудников (name) для таблицы сотрудников (EMPLOYEE), которые получаю ЗП (SALARY) больее 2000 и работают менее 10 месяцев (MONTHS). Отсортируйте по возрастанию ID (EMPLOYEE_ID). Ниже привожу скрин с выполненной задачей и подробным условием.
 </p>
@@ -733,6 +735,26 @@ Windows 11 22H2
 		*/
 </code></pre>
 		<details>
+<summary>Скрин задачи</summary>
+	<img src='https://github.com/a-Nagornaya/Portfolio/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-09-27%20223520.jpg'>
+</details>
+<br>
+<p>Задача 3</p>
+<p>Создайте следующие два результирующих набора:
+Запросите в алфавитном порядке список всех имен в OCCUPATIONS, сразу за которым следует первая буква каждой профессии в скобках (т. е. заключена в скобки).
+Запросите количество повторений каждой профессии в OCCUPATIONS. Отсортируйте вхождения в порядке возрастания</p>
+<p>Решение</p>
+<pre><code>
+	select concat(name, '(', SUBSTR(occupation, 1, 1),')') 
+from occupations 
+order by name;
+
+select 'There are a total of ' ,count(occupation) ,concat(lower(occupation), 's.') 
+from occupations
+group by occupation 
+order by count(occupation) , occupation ;
+</code></pre>
+<details>
 <summary>Скрин задачи</summary>
 	<img src='https://github.com/a-Nagornaya/Portfolio/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-09-27%20223520.jpg'>
 </details>
