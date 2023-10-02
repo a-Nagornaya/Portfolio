@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+![image](https://github.com/a-Nagornaya/Portfolio/assets/133662962/9465e672-1cbe-4bf9-8ac9-3420f2a49f24)<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
@@ -700,7 +700,7 @@ Windows 11 22H2
 
 <section><h3 id="SQL-test">Тестирование БД</h3></section>
 <p>
-В ходе обучения я освоила язык SQL, отрабатывала я данный нывык на тренажере hackerrank. В ходе обученя я получила несколько сертификатов: 
+В ходе обучения я освоила язык SQL, отрабатывала я данный нывык на тренажере hackerrank  и дополнительно прошла курс Яндекс.Практикум "SQL-Basic". В ходе обученя я получила сертификат: 
 <details>
 <summary>SQL (Basic) Certificate</summary>
 	<img src='https://github.com/a-Nagornaya/Portfolio/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-09-29%20205315.png'>
@@ -745,10 +745,9 @@ Windows 11 22H2
 Запросите количество повторений каждой профессии в OCCUPATIONS. Отсортируйте вхождения в порядке возрастания</p>
 <p>Решение</p>
 <pre><code>
-	select concat(name, '(', SUBSTR(occupation, 1, 1),')') 
+select concat(name, '(', SUBSTR(occupation, 1, 1),')') 
 from occupations 
 order by name;
-
 select 'There are a total of ' ,count(occupation) ,concat(lower(occupation), 's.') 
 from occupations
 group by occupation 
@@ -759,6 +758,21 @@ order by count(occupation) , occupation ;
 	<img src='https://github.com/a-Nagornaya/Portfolio/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-09-27%20223520.jpg'>
 </details>
 <br>
+<p>Задача 4</p>
+<p>Отобразите дату, первый день месяца, название пиццы и количество пицц в заказе. Отберите заказы только за февраль и с количеством пицц в заказе, не равным одному.</p>
+<p>Решение</p>
+<pre><code>
+SELECT date, name, quantity, DATE_TRUNC('month', date) 
+FROM pizza 
+WHERE  DATE_TRUNC('month', date) = '2022-02-01' AND quantity != 1;
+</code></pre>
+<details>
+<summary>Скрин задачи</summary>
+	<img src='https://github.com/a-Nagornaya/Portfolio/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-09-27%20223520.jpg'>
+</details>
+<br>
+
+
 
 
 
