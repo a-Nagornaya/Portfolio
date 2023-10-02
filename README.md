@@ -1,4 +1,4 @@
-![image](https://github.com/a-Nagornaya/Portfolio/assets/133662962/9465e672-1cbe-4bf9-8ac9-3420f2a49f24)<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
@@ -755,7 +755,7 @@ order by count(occupation) , occupation ;
 </code></pre>
 <details>
 <summary>Скрин задачи</summary>
-	<img src='https://github.com/a-Nagornaya/Portfolio/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-09-27%20223520.jpg'>
+	<img src='https://github.com/a-Nagornaya/Portfolio/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-09-30%20193700.png'>
 </details>
 <br>
 <p>Задача 4</p>
@@ -768,7 +768,7 @@ WHERE  DATE_TRUNC('month', date) = '2022-02-01' AND quantity != 1;
 </code></pre>
 <details>
 <summary>Скрин задачи</summary>
-	<img src='https://github.com/a-Nagornaya/Portfolio/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-09-27%20223520.jpg'>
+	<img src='https://github.com/a-Nagornaya/Portfolio/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-10-02%20094328.png'>
 </details>
 <br>
 
